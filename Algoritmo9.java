@@ -29,6 +29,7 @@ public class Algoritmo9 {
 				System.out.println("es un numero par");
 			}
 			}
+		variable.close();
 		}
 		
 
