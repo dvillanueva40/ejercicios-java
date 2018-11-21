@@ -13,9 +13,9 @@ public class algoritmo12 {
 		int c=0;
 		int i=1;
 		System.out.println("los cuadrados de los N njumeros naturales");
-		Scanner nombre= new Scanner(System.in);
+		Scanner variable= new Scanner(System.in);
 		System.out.println("Ingrese un numero N");
-		n=nombre.nextInt();
+		n=variable.nextInt();
 		
 		while (i<n) {
 			c=i*i;
@@ -24,7 +24,7 @@ public class algoritmo12 {
 			
 		}
 		
-		nombre.close();
+		variable.close();
 		
 	}
 
