@@ -11,9 +11,9 @@ public class Algoritmo9 {
 		int n;
 		int aux=1;
 		
-		Scanner nombre= new Scanner(System.in);
+		Scanner variable= new Scanner(System.in);
 		System.out.println("ingrese un numero : ");
-		n=nombre.nextInt();
+		n=variable.nextInt();
 		
 		if (n==0){
 			System.out.println("el numero no es par ni impar");
