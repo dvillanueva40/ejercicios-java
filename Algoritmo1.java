@@ -29,8 +29,8 @@ public class Algoritmo1 {
 		System.out.println("el valor de a es : "+a);
 		System.out.println("el valor de b es: "+b);
 	
-		nombre.close();
-		nombre2.close();
+		variable.close();
+		
 	}
 }
 
