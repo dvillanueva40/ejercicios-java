@@ -9,19 +9,18 @@ public class Algoritmo1 {
 		
 		// Realizar 5 ejercicios de cada guia en java
 		
-		// Ejercicio Algoritmo1
+		// Ejercicio Algoritmo1, cambia el valor de a por el vaor de b
 		
 		
 		int a;
 		int b;
 		int aux;
 		
-		Scanner nombre= new Scanner(System.in);
+		Scanner variable= new Scanner(System.in);
 		System.out.println("ingrese el primer numero a: ");
-		a=nombre.nextInt();
-		Scanner nombre2 = new Scanner(System.in);
+		a=variable.nextInt();
 		System.out.println("ingrese el segundo numero b: ");
-		b=nombre2.nextInt();
+		b=variable.nextInt();
 		
 		aux=a;
 		a=b;
